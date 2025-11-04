@@ -6,10 +6,10 @@ Overview
 MoodTune uses MediaPipe’s Face Landmarker for facial emotion detection directly in the browser, mapping emotions to content profiles and fetching relevant recommendations from a Supabase database.
 All processing happens securely in the browser to preserve user privacy.
 
-Flow:
+  Flow:
 Camera → MediaPipe → Emotion Classification → Supabase Query → Recommendations UI
 
-Core Features
+  Core Features
 
 Real-Time Emotion Detection – Reads facial expressions using MediaPipe and classifies emotions like happy, sad, angry, relaxed, fearful, neutral, etc.
 
@@ -23,7 +23,7 @@ Mood History – Logs up to 10 recent detections with timestamps and moods.
 
 Privacy-First – Runs inference locally; no raw camera data is stored or uploaded.
 
-Tech Stack
+  Tech Stack
 
 Frontend: React + TypeScript + TailwindCSS + ShadCN UI
 
@@ -35,32 +35,8 @@ Build Tools: Vite, React Query
 
 Deployment: Netlify / Vercel
 
-⚙️ Setup Instructions
 
-Clone the repository:
-
-git clone <repo-url>
-cd MoodTune
-npm install
-
-
-Create a .env file with:
-
-VITE_SUPABASE_URL=<your-supabase-url>
-VITE_SUPABASE_PUBLISHABLE_KEY=<your-supabase-key>
-
-
-Run locally:
-
-npm run dev
-
-
-Build for production:
-
-npm run build
-npm run preview
-
-Architecture Overview
+  Architecture Overview
 
 Frontend (React) – Manages UI, camera, and MediaPipe inference.
 
@@ -72,7 +48,7 @@ Backend (Supabase) – Stores content data, user preferences, and history.
 
 Deployment – Netlify frontend, Supabase backend.
 
-Privacy & Security
+  Privacy & Security
 
 Camera processing runs locally (no image uploads).
 
@@ -82,7 +58,7 @@ HTTPS enforced for all deployments.
 
 Row-Level Security (RLS) active in Supabase.
 
-Future Enhancements
+  Future Enhancements
 
 Add voice and text sentiment analysis.
 
