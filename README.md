@@ -1,7 +1,8 @@
 # MoodTune
 MoodTune – AI-Powered Emotion-Based Media Recommender:
 MoodTune is an AI-driven web app that detects your mood in real time through facial expressions and intelligently recommends personalized music, movies, anime, books, games, and podcasts that match how you feel.
-Overview
+
+ Overview:
 
 MoodTune uses MediaPipe’s Face Landmarker for facial emotion detection directly in the browser, mapping emotions to content profiles and fetching relevant recommendations from a Supabase database.
 All processing happens securely in the browser to preserve user privacy.
