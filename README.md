@@ -12,6 +12,7 @@ Camera → MediaPipe → Emotion Classification → Supabase Query → Recommend
 
 
   Core Features:
+Real time data
 
 Real-Time Emotion Detection – Reads facial expressions using MediaPipe and classifies emotions like happy, sad, angry, relaxed, fearful, neutral, etc.
 
