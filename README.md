@@ -8,7 +8,7 @@ MoodTune uses MediaPipe’s Face Landmarker for facial emotion detection directl
 All processing happens securely in the browser to preserve user privacy.
 
   Flow:
-Camera → MediaPipe → Emotion Classification → Supabase Query → Recommendations UI
+Camera → MediaPipe → Emotion Classification → Supabase Query → Rkjsndnkbnecommendations UI
 
 
   Core Features:
