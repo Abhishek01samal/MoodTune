@@ -7,8 +7,8 @@ MoodTune is an AI-driven web app that detects your mood in real time through fac
 MoodTune uses MediaPipe’s Face Landmarker for facial emotion detection directly in the browser, mapping emotions to content profiles and fetching relevant recommendations from a Supabase database.
 All processing happens securely in the browser to preserve user privacy.
 
-  Flow:sckbkb
-Camera → MediaPipe → Emotion Classification → Supabase Query → Rkjsndnkbnecommendations UI
+  Flow:
+Camera → MediaPipe → Emotion Classification → Supabase Query → Recommendations UI
 
 
   Core Features:
